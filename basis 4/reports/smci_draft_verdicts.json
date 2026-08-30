@@ -1,0 +1,99 @@
+{
+  "draft": "drafts/smci_ungrounded.json",
+  "company": "Super Micro Computer, Inc. (SMCI)",
+  "tally": {
+    "VERIFIED": 1,
+    "MISMATCH": 8,
+    "UNSOURCED": 1,
+    "UNVERIFIABLE": 2
+  },
+  "grounding_rate": 0.1,
+  "results": [
+    {
+      "id": "c01",
+      "text": "SMCI generated approximately $22.0B of revenue in fiscal 2025.",
+      "kind": "fact",
+      "verdict": "VERIFIED",
+      "detail": "matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax @ 2025-06-30 = 21,972,042,000"
+    },
+    {
+      "id": "c02",
+      "text": "Fiscal 2024 revenue was $14.9B.",
+      "kind": "fact",
+      "verdict": "MISMATCH",
+      "detail": "stated 14,900,000,000 vs filed 14,989,251,000 (-0.6% off) for us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax @ 2024-06-30"
+    },
+    {
+      "id": "c03",
+      "text": "Revenue roughly tripled in fiscal 2024 on AI server demand.",
+      "kind": "derived",
+      "verdict": "MISMATCH",
+      "detail": "stated 2.0000 but recomputes to 1.1042 [yoy_growth]",
+      "recomputed": 1.1042028322665796
+    },
+    {
+      "id": "c04",
+      "text": "Net income in fiscal 2025 was approximately $1.15B.",
+      "kind": "fact",
+      "verdict": "MISMATCH",
+      "detail": "stated 1,150,000,000 vs filed 1,048,854,000 (+9.6% off) for us-gaap:NetIncomeLoss @ 2025-06-30"
+    },
+    {
+      "id": "c05",
+      "text": "Gross margin compressed to roughly 9.7% in fiscal 2025.",
+      "kind": "derived",
+      "verdict": "MISMATCH",
+      "detail": "stated 0.0970 but recomputes to 0.1106 [margin]",
+      "recomputed": 0.11059154174200105
+    },
+    {
+      "id": "c06",
+      "text": "The company held about $1.7B of cash and equivalents at fiscal year-end 2025.",
+      "kind": "fact",
+      "verdict": "MISMATCH",
+      "detail": "stated 1,700,000,000 vs filed 5,169,911,000 (-67.1% off) for us-gaap:CashAndCashEquivalentsAtCarryingValue @ 2025-06-30"
+    },
+    {
+      "id": "c07",
+      "text": "Inventory stood near $4.3B at fiscal year-end 2025.",
+      "kind": "fact",
+      "verdict": "MISMATCH",
+      "detail": "stated 4,300,000,000 vs filed 4,680,375,000 (-8.1% off) for us-gaap:InventoryNet @ 2025-06-30"
+    },
+    {
+      "id": "c08",
+      "text": "SMCI burned about $2.5B of operating cash in fiscal 2024 building inventory ahead of demand.",
+      "kind": "fact",
+      "verdict": "MISMATCH",
+      "detail": "stated -2,500,000,000 vs filed -2,485,972,000 (+0.6% off) for us-gaap:NetCashProvidedByUsedInOperatingActivities @ 2024-06-30"
+    },
+    {
+      "id": "c09",
+      "text": "R&D spend was around $500M in fiscal 2025.",
+      "kind": "fact",
+      "verdict": "MISMATCH",
+      "detail": "stated 500,000,000 vs filed 636,550,000 (-21.5% off) for us-gaap:ResearchAndDevelopmentExpense @ 2025-06-30"
+    },
+    {
+      "id": "c10",
+      "text": "The company reported a multi-billion dollar order backlog exiting fiscal 2025.",
+      "kind": "fact",
+      "verdict": "UNSOURCED",
+      "detail": "concept us-gaap:RevenueRemainingPerformanceObligation not in cache"
+    },
+    {
+      "id": "c11",
+      "text": "EY resigned as auditor in October 2024; BDO signed off on the delayed FY2024 10-K, which was filed in February 2025 after an NT 10-K.",
+      "kind": "qualitative",
+      "verdict": "UNVERIFIABLE",
+      "detail": "qualitative claim -- outside the gate; flag for human review"
+    },
+    {
+      "id": "c12",
+      "text": "Growth is increasingly driven by Blackwell-generation GPU systems and direct-liquid-cooling data center deployments.",
+      "kind": "qualitative",
+      "verdict": "UNVERIFIABLE",
+      "detail": "qualitative claim -- outside the gate; flag for human review"
+    }
+  ]
+}

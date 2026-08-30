@@ -1,0 +1,145 @@
+{
+  "draft": "drafts/smci_grounded.json",
+  "company": "Super Micro Computer, Inc. (SMCI)",
+  "tally": {
+    "VERIFIED": 14,
+    "UNSOURCED": 2,
+    "UNVERIFIABLE": 2
+  },
+  "grounding_rate": 0.875,
+  "results": [
+    {
+      "id": "g01",
+      "text": "SMCI generated $21.97B of revenue in fiscal 2025 (year ended June 30, 2025).",
+      "kind": "fact",
+      "verdict": "VERIFIED",
+      "detail": "matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax @ 2025-06-30 = 21,972,042,000"
+    },
+    {
+      "id": "g02",
+      "text": "Revenue grew 46.6% in fiscal 2025...",
+      "kind": "derived",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.4659 ~= stated 0.4660 [yoy_growth]",
+      "recomputed": 0.46585323042492255
+    },
+    {
+      "id": "g03",
+      "text": "...decelerating from 110.4% growth in fiscal 2024.",
+      "kind": "derived",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 1.1042 ~= stated 1.1040 [yoy_growth]",
+      "recomputed": 1.1042028322665796
+    },
+    {
+      "id": "g04",
+      "text": "Gross profit was $2.43B in fiscal 2025.",
+      "kind": "fact",
+      "verdict": "VERIFIED",
+      "detail": "matches us-gaap:GrossProfit @ 2025-06-30 = 2,429,922,000"
+    },
+    {
+      "id": "g05",
+      "text": "Gross margin was 11.1% in fiscal 2025...",
+      "kind": "derived",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1106 ~= stated 0.1106 [margin]",
+      "recomputed": 0.11059154174200105
+    },
+    {
+      "id": "g06",
+      "text": "...down ~270bps from 13.8% in fiscal 2024 -- growth is being bought with price.",
+      "kind": "derived",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1375 ~= stated 0.1375 [margin]",
+      "recomputed": 0.13752588438208152
+    },
+    {
+      "id": "g07",
+      "text": "Net income was $1.05B in fiscal 2025...",
+      "kind": "fact",
+      "verdict": "VERIFIED",
+      "detail": "matches us-gaap:NetIncomeLoss @ 2025-06-30 = 1,048,854,000"
+    },
+    {
+      "id": "g08",
+      "text": "...a 9.0% decline year-over-year despite 46.6% revenue growth.",
+      "kind": "derived",
+      "verdict": "VERIFIED",
+      "detail": "recomputed -0.0901 ~= stated -0.0900 [yoy_growth]",
+      "recomputed": -0.09006251594130477
+    },
+    {
+      "id": "g09",
+      "text": "Inventory ended fiscal 2025 at $4.68B.",
+      "kind": "fact",
+      "verdict": "VERIFIED",
+      "detail": "matches us-gaap:InventoryNet @ 2025-06-30 = 4,680,375,000"
+    },
+    {
+      "id": "g10",
+      "text": "Inventory swelled by $2.89B during fiscal 2024 alone -- the balance nearly tripled in one year.",
+      "kind": "derived",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 2,887,465,000.0000 ~= stated 2,887,465,000.0000 [delta]",
+      "recomputed": 2887465000
+    },
+    {
+      "id": "g11",
+      "text": "That working-capital build showed up in cash: operating cash flow was NEGATIVE $2.49B in fiscal 2024...",
+      "kind": "fact",
+      "verdict": "VERIFIED",
+      "detail": "matches us-gaap:NetCashProvidedByUsedInOperatingActivities @ 2024-06-30 = -2,485,972,000"
+    },
+    {
+      "id": "g12",
+      "text": "...before swinging back to POSITIVE $1.66B in fiscal 2025.",
+      "kind": "fact",
+      "verdict": "VERIFIED",
+      "detail": "matches us-gaap:NetCashProvidedByUsedInOperatingActivities @ 2025-06-30 = 1,659,524,000"
+    },
+    {
+      "id": "g13",
+      "text": "Cash and equivalents ended fiscal 2025 at $5.17B.",
+      "kind": "fact",
+      "verdict": "VERIFIED",
+      "detail": "matches us-gaap:CashAndCashEquivalentsAtCarryingValue @ 2025-06-30 = 5,169,911,000"
+    },
+    {
+      "id": "g14",
+      "text": "R&D intensity is thin for an AI infrastructure name: 2.9% of revenue in fiscal 2025.",
+      "kind": "derived",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0290 ~= stated 0.0290 [ratio]",
+      "recomputed": 0.028970907665295743
+    },
+    {
+      "id": "g15",
+      "text": "Days sales outstanding improved to roughly 37 days in fiscal 2025 as receivables fell while revenue grew.",
+      "kind": "derived",
+      "verdict": "UNSOURCED",
+      "detail": "cannot recompute: unknown op dso"
+    },
+    {
+      "id": "g16",
+      "text": "Free cash flow turned positive in fiscal 2025 at roughly $1.1B after capex.",
+      "kind": "derived",
+      "verdict": "UNSOURCED",
+      "detail": "cannot recompute: concept us-gaap:PaymentsToAcquirePropertyPlantAndEquipment not in cache"
+    },
+    {
+      "id": "g17",
+      "text": "Governance overhang is recent and real: the FY2024 10-K was filed late (Feb 2025) following EY's resignation as auditor in Oct 2024; BDO is the successor auditor.",
+      "kind": "qualitative",
+      "verdict": "UNVERIFIABLE",
+      "detail": "qualitative claim -- outside the gate; flag for human review"
+    },
+    {
+      "id": "g18",
+      "text": "Key diligence questions: customer concentration among hyperscalers, margin trajectory as Blackwell-generation systems commoditize, and whether the FY2024 inventory bet repeats.",
+      "kind": "qualitative",
+      "verdict": "UNVERIFIABLE",
+      "detail": "qualitative claim -- outside the gate; flag for human review"
+    }
+  ]
+}

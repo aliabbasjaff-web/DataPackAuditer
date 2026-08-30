@@ -1,0 +1,983 @@
+{
+  "workbook": "agent_run/SMCI_DataPack_2026-08-30.xlsx",
+  "stats": {
+    "cells_audited": 139,
+    "inputs": 45,
+    "formulas": 94
+  },
+  "tally": {
+    "VERIFIED": 128,
+    "UNSOURCED": 1,
+    "NARRATIVE_UNAUDITED": 3
+  },
+  "identity_reference": [
+    {
+      "period": "2019-06-30",
+      "implied_cogs": 3004838000,
+      "implied_opex": 398289000,
+      "opex_pct_rev": 0.1138
+    },
+    {
+      "period": "2020-06-30",
+      "implied_cogs": 2813071000,
+      "implied_opex": 440556000,
+      "opex_pct_rev": 0.1319
+    },
+    {
+      "period": "2021-06-30",
+      "implied_cogs": 3022884000,
+      "implied_opex": 410591000,
+      "opex_pct_rev": 0.1154
+    },
+    {
+      "period": "2022-06-30",
+      "implied_cogs": 4396098000,
+      "implied_opex": 464834000,
+      "opex_pct_rev": 0.0895
+    },
+    {
+      "period": "2023-06-30",
+      "implied_cogs": 5840470000,
+      "implied_opex": 521870000,
+      "opex_pct_rev": 0.0733
+    },
+    {
+      "period": "2024-06-30",
+      "implied_cogs": 12927841000,
+      "implied_opex": 850636000,
+      "opex_pct_rev": 0.0567
+    },
+    {
+      "period": "2025-06-30",
+      "implied_cogs": 19542120000,
+      "implied_opex": 1176928000,
+      "opex_pct_rev": 0.0536
+    }
+  ],
+  "findings": [
+    {
+      "sheet": "Executive Summary",
+      "cell": "B8",
+      "label": "Revenue",
+      "verdict": "VERIFIED",
+      "detail": "3,557,400,000 matches filed 3,557,422,000 [RevenueFromContractWithCustomerExcludingAssessedTax @ 2021-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "C8",
+      "label": "Revenue",
+      "verdict": "VERIFIED",
+      "detail": "5,196,100,000 matches filed 5,196,099,000 [RevenueFromContractWithCustomerExcludingAssessedTax @ 2022-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "D8",
+      "label": "Revenue",
+      "verdict": "VERIFIED",
+      "detail": "7,123,500,000 matches filed 7,123,482,000 [RevenueFromContractWithCustomerExcludingAssessedTax @ 2023-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "E8",
+      "label": "Revenue",
+      "verdict": "VERIFIED",
+      "detail": "14,989,300,000 matches filed 14,989,251,000 [RevenueFromContractWithCustomerExcludingAssessedTax @ 2024-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "F8",
+      "label": "Revenue",
+      "verdict": "VERIFIED",
+      "detail": "21,972,000,000 matches filed 21,972,042,000 [RevenueFromContractWithCustomerExcludingAssessedTax @ 2025-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "B9",
+      "label": "Revenue growth %",
+      "verdict": "UNSOURCED",
+      "detail": "cannot recompute 'Revenue growth %' @ 2021-06-30 from cache"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "C9",
+      "label": "Revenue growth %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.4606 ~= sheet 0.4606 [Revenue growth %]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "D9",
+      "label": "Revenue growth %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.3709 ~= sheet 0.3709 [Revenue growth %]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "E9",
+      "label": "Revenue growth %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 1.1042 ~= sheet 1.1042 [Revenue growth %]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "F9",
+      "label": "Revenue growth %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.4659 ~= sheet 0.4658 [Revenue growth %]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "B10",
+      "label": "Gross margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1503 ~= sheet 0.1503 [Gross margin %]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "C10",
+      "label": "Gross margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1540 ~= sheet 0.1540 [Gross margin %]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "D10",
+      "label": "Gross margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1801 ~= sheet 0.1801 [Gross margin %]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "E10",
+      "label": "Gross margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1375 ~= sheet 0.1375 [Gross margin %]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "F10",
+      "label": "Gross margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1106 ~= sheet 0.1106 [Gross margin %]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "B11",
+      "label": "Operating income",
+      "verdict": "VERIFIED",
+      "detail": "123,900,000 matches filed 123,947,000 [OperatingIncomeLoss @ 2021-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "C11",
+      "label": "Operating income",
+      "verdict": "VERIFIED",
+      "detail": "335,200,000 matches filed 335,167,000 [OperatingIncomeLoss @ 2022-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "D11",
+      "label": "Operating income",
+      "verdict": "VERIFIED",
+      "detail": "761,100,000 matches filed 761,142,000 [OperatingIncomeLoss @ 2023-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "E11",
+      "label": "Operating income",
+      "verdict": "VERIFIED",
+      "detail": "1,210,800,000 matches filed 1,210,774,000 [OperatingIncomeLoss @ 2024-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "F11",
+      "label": "Operating income",
+      "verdict": "VERIFIED",
+      "detail": "1,253,000,000 matches filed 1,252,994,000 [OperatingIncomeLoss @ 2025-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "B12",
+      "label": "Net income",
+      "verdict": "VERIFIED",
+      "detail": "111,900,000 matches filed 111,865,000 [NetIncomeLoss @ 2021-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "C12",
+      "label": "Net income",
+      "verdict": "VERIFIED",
+      "detail": "285,200,000 matches filed 285,163,000 [NetIncomeLoss @ 2022-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "D12",
+      "label": "Net income",
+      "verdict": "VERIFIED",
+      "detail": "640,000,000 matches filed 639,998,000 [NetIncomeLoss @ 2023-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "E12",
+      "label": "Net income",
+      "verdict": "VERIFIED",
+      "detail": "1,152,700,000 matches filed 1,152,666,000 [NetIncomeLoss @ 2024-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "F12",
+      "label": "Net income",
+      "verdict": "VERIFIED",
+      "detail": "1,048,900,000 matches filed 1,048,854,000 [NetIncomeLoss @ 2025-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "B14",
+      "label": "Cash and equivalents",
+      "verdict": "VERIFIED",
+      "detail": "232,300,000 matches filed 232,266,000 [CashAndCashEquivalentsAtCarryingValue @ 2021-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "C14",
+      "label": "Cash and equivalents",
+      "verdict": "VERIFIED",
+      "detail": "267,400,000 matches filed 267,397,000 [CashAndCashEquivalentsAtCarryingValue @ 2022-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "D14",
+      "label": "Cash and equivalents",
+      "verdict": "VERIFIED",
+      "detail": "440,500,000 matches filed 440,459,000 [CashAndCashEquivalentsAtCarryingValue @ 2023-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "E14",
+      "label": "Cash and equivalents",
+      "verdict": "VERIFIED",
+      "detail": "1,669,800,000 matches filed 1,669,766,000 [CashAndCashEquivalentsAtCarryingValue @ 2024-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "F14",
+      "label": "Cash and equivalents",
+      "verdict": "VERIFIED",
+      "detail": "5,169,900,000 matches filed 5,169,911,000 [CashAndCashEquivalentsAtCarryingValue @ 2025-06-30]"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "A4",
+      "label": "Overview: SMCI designs and manufactures high-performance ser...",
+      "verdict": "NARRATIVE_UNAUDITED",
+      "detail": "prose cell contains 1 numeric claims outside cell-level audit: ~6x"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "A16",
+      "label": "Highlights: 46.6% FY2025 revenue growth on Blackwell-generat...",
+      "verdict": "NARRATIVE_UNAUDITED",
+      "detail": "prose cell contains 3 numeric claims outside cell-level audit: 46.6%, $1,660, $5.2"
+    },
+    {
+      "sheet": "Executive Summary",
+      "cell": "A17",
+      "label": "Considerations: gross margin down ~270bps YoY (11.1% FY2025)...",
+      "verdict": "NARRATIVE_UNAUDITED",
+      "detail": "prose cell contains 3 numeric claims outside cell-level audit: 270bps, 11.1%, 9%"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "B5",
+      "label": "Revenue",
+      "verdict": "VERIFIED",
+      "detail": "3,557,400,000 matches filed 3,557,422,000 [RevenueFromContractWithCustomerExcludingAssessedTax @ 2021-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "C5",
+      "label": "Revenue",
+      "verdict": "VERIFIED",
+      "detail": "5,196,100,000 matches filed 5,196,099,000 [RevenueFromContractWithCustomerExcludingAssessedTax @ 2022-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "D5",
+      "label": "Revenue",
+      "verdict": "VERIFIED",
+      "detail": "7,123,500,000 matches filed 7,123,482,000 [RevenueFromContractWithCustomerExcludingAssessedTax @ 2023-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "E5",
+      "label": "Revenue",
+      "verdict": "VERIFIED",
+      "detail": "14,989,300,000 matches filed 14,989,251,000 [RevenueFromContractWithCustomerExcludingAssessedTax @ 2024-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "F5",
+      "label": "Revenue",
+      "verdict": "VERIFIED",
+      "detail": "21,972,000,000 matches filed 21,972,042,000 [RevenueFromContractWithCustomerExcludingAssessedTax @ 2025-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "B6",
+      "label": "Cost of sales",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 3,022.8840 ~= sheet 3,022.9000 [Cost of sales]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "C6",
+      "label": "Cost of sales",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 4,396.0980 ~= sheet 4,396.1000 [Cost of sales]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "D6",
+      "label": "Cost of sales",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 5,840.4700 ~= sheet 5,840.5000 [Cost of sales]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "E6",
+      "label": "Cost of sales",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 12,927.8410 ~= sheet 12,927.9000 [Cost of sales]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "F6",
+      "label": "Cost of sales",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 19,542.1200 ~= sheet 19,542.1000 [Cost of sales]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "B7",
+      "label": "Gross profit",
+      "verdict": "VERIFIED",
+      "detail": "534,500,000 matches filed 534,538,000 [GrossProfit @ 2021-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "C7",
+      "label": "Gross profit",
+      "verdict": "VERIFIED",
+      "detail": "800,000,000 matches filed 800,001,000 [GrossProfit @ 2022-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "D7",
+      "label": "Gross profit",
+      "verdict": "VERIFIED",
+      "detail": "1,283,000,000 matches filed 1,283,012,000 [GrossProfit @ 2023-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "E7",
+      "label": "Gross profit",
+      "verdict": "VERIFIED",
+      "detail": "2,061,400,000 matches filed 2,061,410,000 [GrossProfit @ 2024-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "F7",
+      "label": "Gross profit",
+      "verdict": "VERIFIED",
+      "detail": "2,429,900,000 matches filed 2,429,922,000 [GrossProfit @ 2025-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "B8",
+      "label": "Gross margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1503 ~= sheet 0.1503 [Gross margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "C8",
+      "label": "Gross margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1540 ~= sheet 0.1540 [Gross margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "D8",
+      "label": "Gross margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1801 ~= sheet 0.1801 [Gross margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "E8",
+      "label": "Gross margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1375 ~= sheet 0.1375 [Gross margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "F8",
+      "label": "Gross margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1106 ~= sheet 0.1106 [Gross margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "B10",
+      "label": "Research & development",
+      "verdict": "VERIFIED",
+      "detail": "224,400,000 matches filed 224,369,000 [ResearchAndDevelopmentExpense @ 2021-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "C10",
+      "label": "Research & development",
+      "verdict": "VERIFIED",
+      "detail": "272,300,000 matches filed 272,273,000 [ResearchAndDevelopmentExpense @ 2022-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "D10",
+      "label": "Research & development",
+      "verdict": "VERIFIED",
+      "detail": "307,300,000 matches filed 307,260,000 [ResearchAndDevelopmentExpense @ 2023-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "E10",
+      "label": "Research & development",
+      "verdict": "VERIFIED",
+      "detail": "463,500,000 matches filed 463,548,000 [ResearchAndDevelopmentExpense @ 2024-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "F10",
+      "label": "Research & development",
+      "verdict": "VERIFIED",
+      "detail": "636,500,000 matches filed 636,550,000 [ResearchAndDevelopmentExpense @ 2025-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "B11",
+      "label": "SG&A and other opex",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 186.2220 ~= sheet 186.2000 [SG&A and other opex]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "C11",
+      "label": "SG&A and other opex",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 192.5610 ~= sheet 192.5000 [SG&A and other opex]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "D11",
+      "label": "SG&A and other opex",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 214.6100 ~= sheet 214.6000 [SG&A and other opex]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "E11",
+      "label": "SG&A and other opex",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 387.0880 ~= sheet 387.1000 [SG&A and other opex]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "F11",
+      "label": "SG&A and other opex",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 540.3780 ~= sheet 540.4000 [SG&A and other opex]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "B12",
+      "label": "Operating income",
+      "verdict": "VERIFIED",
+      "detail": "123,900,000 matches filed 123,947,000 [OperatingIncomeLoss @ 2021-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "C12",
+      "label": "Operating income",
+      "verdict": "VERIFIED",
+      "detail": "335,200,000 matches filed 335,167,000 [OperatingIncomeLoss @ 2022-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "D12",
+      "label": "Operating income",
+      "verdict": "VERIFIED",
+      "detail": "761,100,000 matches filed 761,142,000 [OperatingIncomeLoss @ 2023-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "E12",
+      "label": "Operating income",
+      "verdict": "VERIFIED",
+      "detail": "1,210,800,000 matches filed 1,210,774,000 [OperatingIncomeLoss @ 2024-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "F12",
+      "label": "Operating income",
+      "verdict": "VERIFIED",
+      "detail": "1,253,000,000 matches filed 1,252,994,000 [OperatingIncomeLoss @ 2025-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "B13",
+      "label": "Operating margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0348 ~= sheet 0.0348 [Operating margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "C13",
+      "label": "Operating margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0645 ~= sheet 0.0645 [Operating margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "D13",
+      "label": "Operating margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.1068 ~= sheet 0.1068 [Operating margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "E13",
+      "label": "Operating margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0808 ~= sheet 0.0808 [Operating margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "F13",
+      "label": "Operating margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0570 ~= sheet 0.0570 [Operating margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "B15",
+      "label": "Net income",
+      "verdict": "VERIFIED",
+      "detail": "111,900,000 matches filed 111,865,000 [NetIncomeLoss @ 2021-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "C15",
+      "label": "Net income",
+      "verdict": "VERIFIED",
+      "detail": "285,200,000 matches filed 285,163,000 [NetIncomeLoss @ 2022-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "D15",
+      "label": "Net income",
+      "verdict": "VERIFIED",
+      "detail": "640,000,000 matches filed 639,998,000 [NetIncomeLoss @ 2023-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "E15",
+      "label": "Net income",
+      "verdict": "VERIFIED",
+      "detail": "1,152,700,000 matches filed 1,152,666,000 [NetIncomeLoss @ 2024-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "F15",
+      "label": "Net income",
+      "verdict": "VERIFIED",
+      "detail": "1,048,900,000 matches filed 1,048,854,000 [NetIncomeLoss @ 2025-06-30]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "B16",
+      "label": "Net margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0314 ~= sheet 0.0315 [Net margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "C16",
+      "label": "Net margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0549 ~= sheet 0.0549 [Net margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "D16",
+      "label": "Net margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0898 ~= sheet 0.0898 [Net margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "E16",
+      "label": "Net margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0769 ~= sheet 0.0769 [Net margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "F16",
+      "label": "Net margin %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0477 ~= sheet 0.0477 [Net margin %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "C18",
+      "label": "Revenue growth %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.4606 ~= sheet 0.4606 [Revenue growth %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "D18",
+      "label": "Revenue growth %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.3709 ~= sheet 0.3709 [Revenue growth %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "E18",
+      "label": "Revenue growth %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 1.1042 ~= sheet 1.1042 [Revenue growth %]"
+    },
+    {
+      "sheet": "Historical Financials",
+      "cell": "F18",
+      "label": "Revenue growth %",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.4659 ~= sheet 0.4658 [Revenue growth %]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "B5",
+      "label": "Cash and equivalents",
+      "verdict": "VERIFIED",
+      "detail": "232,300,000 matches filed 232,266,000 [CashAndCashEquivalentsAtCarryingValue @ 2021-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "C5",
+      "label": "Cash and equivalents",
+      "verdict": "VERIFIED",
+      "detail": "267,400,000 matches filed 267,397,000 [CashAndCashEquivalentsAtCarryingValue @ 2022-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "D5",
+      "label": "Cash and equivalents",
+      "verdict": "VERIFIED",
+      "detail": "440,500,000 matches filed 440,459,000 [CashAndCashEquivalentsAtCarryingValue @ 2023-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "E5",
+      "label": "Cash and equivalents",
+      "verdict": "VERIFIED",
+      "detail": "1,669,800,000 matches filed 1,669,766,000 [CashAndCashEquivalentsAtCarryingValue @ 2024-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "F5",
+      "label": "Cash and equivalents",
+      "verdict": "VERIFIED",
+      "detail": "5,169,900,000 matches filed 5,169,911,000 [CashAndCashEquivalentsAtCarryingValue @ 2025-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "B6",
+      "label": "Accounts receivable, net",
+      "verdict": "VERIFIED",
+      "detail": "463,800,000 matches filed 463,834,000 [AccountsReceivableNetCurrent @ 2021-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "C6",
+      "label": "Accounts receivable, net",
+      "verdict": "VERIFIED",
+      "detail": "834,500,000 matches filed 834,513,000 [AccountsReceivableNetCurrent @ 2022-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "D6",
+      "label": "Accounts receivable, net",
+      "verdict": "VERIFIED",
+      "detail": "1,148,300,000 matches filed 1,148,259,000 [AccountsReceivableNetCurrent @ 2023-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "E6",
+      "label": "Accounts receivable, net",
+      "verdict": "VERIFIED",
+      "detail": "2,737,300,000 matches filed 2,737,331,000 [AccountsReceivableNetCurrent @ 2024-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "F6",
+      "label": "Accounts receivable, net",
+      "verdict": "VERIFIED",
+      "detail": "2,203,900,000 matches filed 2,203,942,000 [AccountsReceivableNetCurrent @ 2025-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "B7",
+      "label": "Inventory, net",
+      "verdict": "VERIFIED",
+      "detail": "1,041,000,000 matches filed 1,040,964,000 [InventoryNet @ 2021-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "C7",
+      "label": "Inventory, net",
+      "verdict": "VERIFIED",
+      "detail": "1,545,600,000 matches filed 1,545,606,000 [InventoryNet @ 2022-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "D7",
+      "label": "Inventory, net",
+      "verdict": "VERIFIED",
+      "detail": "1,445,600,000 matches filed 1,445,564,000 [InventoryNet @ 2023-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "E7",
+      "label": "Inventory, net",
+      "verdict": "VERIFIED",
+      "detail": "4,333,000,000 matches filed 4,333,029,000 [InventoryNet @ 2024-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "F7",
+      "label": "Inventory, net",
+      "verdict": "VERIFIED",
+      "detail": "4,680,400,000 matches filed 4,680,375,000 [InventoryNet @ 2025-06-30]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "B8",
+      "label": "Cash + AR + Inventory",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 1,737.0640 ~= sheet 1,737.1000 [Cash + AR + Inventory]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "C8",
+      "label": "Cash + AR + Inventory",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 2,647.5160 ~= sheet 2,647.5000 [Cash + AR + Inventory]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "D8",
+      "label": "Cash + AR + Inventory",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 3,034.2820 ~= sheet 3,034.4000 [Cash + AR + Inventory]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "E8",
+      "label": "Cash + AR + Inventory",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 8,740.1260 ~= sheet 8,740.1000 [Cash + AR + Inventory]"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "cell": "F8",
+      "label": "Cash + AR + Inventory",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 12,054.2280 ~= sheet 12,054.2000 [Cash + AR + Inventory]"
+    },
+    {
+      "sheet": "Cash Flow",
+      "cell": "B5",
+      "label": "Net cash from operating activities",
+      "verdict": "VERIFIED",
+      "detail": "123,000,000 matches filed 122,955,000 [NetCashProvidedByUsedInOperatingActivities @ 2021-06-30]"
+    },
+    {
+      "sheet": "Cash Flow",
+      "cell": "C5",
+      "label": "Net cash from operating activities",
+      "verdict": "VERIFIED",
+      "detail": "-440,800,000 matches filed -440,801,000 [NetCashProvidedByUsedInOperatingActivities @ 2022-06-30]"
+    },
+    {
+      "sheet": "Cash Flow",
+      "cell": "D5",
+      "label": "Net cash from operating activities",
+      "verdict": "VERIFIED",
+      "detail": "663,600,000 matches filed 663,580,000 [NetCashProvidedByUsedInOperatingActivities @ 2023-06-30]"
+    },
+    {
+      "sheet": "Cash Flow",
+      "cell": "E5",
+      "label": "Net cash from operating activities",
+      "verdict": "VERIFIED",
+      "detail": "-2,486,000,000 matches filed -2,485,972,000 [NetCashProvidedByUsedInOperatingActivities @ 2024-06-30]"
+    },
+    {
+      "sheet": "Cash Flow",
+      "cell": "F5",
+      "label": "Net cash from operating activities",
+      "verdict": "VERIFIED",
+      "detail": "1,659,500,000 matches filed 1,659,524,000 [NetCashProvidedByUsedInOperatingActivities @ 2025-06-30]"
+    },
+    {
+      "sheet": "Cash Flow",
+      "cell": "B7",
+      "label": "OCF / Net income conversion",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 1.0991 ~= sheet 1.0992 [OCF / Net income conversion]"
+    },
+    {
+      "sheet": "Cash Flow",
+      "cell": "C7",
+      "label": "OCF / Net income conversion",
+      "verdict": "VERIFIED",
+      "detail": "recomputed -1.5458 ~= sheet -1.5456 [OCF / Net income conversion]"
+    },
+    {
+      "sheet": "Cash Flow",
+      "cell": "D7",
+      "label": "OCF / Net income conversion",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 1.0368 ~= sheet 1.0369 [OCF / Net income conversion]"
+    },
+    {
+      "sheet": "Cash Flow",
+      "cell": "E7",
+      "label": "OCF / Net income conversion",
+      "verdict": "VERIFIED",
+      "detail": "recomputed -2.1567 ~= sheet -2.1567 [OCF / Net income conversion]"
+    },
+    {
+      "sheet": "Cash Flow",
+      "cell": "F7",
+      "label": "OCF / Net income conversion",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 1.5822 ~= sheet 1.5821 [OCF / Net income conversion]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "B5",
+      "label": "Days sales outstanding (DSO)",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 47.5905 ~= sheet 47.5873 [Days sales outstanding (DSO)]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "C5",
+      "label": "Days sales outstanding (DSO)",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 58.6204 ~= sheet 58.6194 [Days sales outstanding (DSO)]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "D5",
+      "label": "Days sales outstanding (DSO)",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 58.8356 ~= sheet 58.8376 [Days sales outstanding (DSO)]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "E5",
+      "label": "Days sales outstanding (DSO)",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 66.6562 ~= sheet 66.6552 [Days sales outstanding (DSO)]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "F5",
+      "label": "Days sales outstanding (DSO)",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 36.6119 ~= sheet 36.6113 [Days sales outstanding (DSO)]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "B6",
+      "label": "Days inventory outstanding (DIO)",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 125.6918 ~= sheet 125.6955 [Days inventory outstanding (DIO)]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "C6",
+      "label": "Days inventory outstanding (DIO)",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 128.3288 ~= sheet 128.3283 [Days inventory outstanding (DIO)]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "D6",
+      "label": "Days inventory outstanding (DIO)",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 90.3405 ~= sheet 90.3423 [Days inventory outstanding (DIO)]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "E6",
+      "label": "Days inventory outstanding (DIO)",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 122.3372 ~= sheet 122.3358 [Days inventory outstanding (DIO)]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "F6",
+      "label": "Days inventory outstanding (DIO)",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 87.4182 ~= sheet 87.4188 [Days inventory outstanding (DIO)]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "B7",
+      "label": "R&D % of revenue",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0631 ~= sheet 0.0631 [R&D % of revenue]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "C7",
+      "label": "R&D % of revenue",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0524 ~= sheet 0.0524 [R&D % of revenue]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "D7",
+      "label": "R&D % of revenue",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0431 ~= sheet 0.0431 [R&D % of revenue]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "E7",
+      "label": "R&D % of revenue",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0309 ~= sheet 0.0309 [R&D % of revenue]"
+    },
+    {
+      "sheet": "Operating Metrics",
+      "cell": "F7",
+      "label": "R&D % of revenue",
+      "verdict": "VERIFIED",
+      "detail": "recomputed 0.0290 ~= sheet 0.0290 [R&D % of revenue]"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "entity": "Super Micro Computer, Inc.",
+    "ticker": "SMCI",
+    "cik": "0001375365",
+    "fiscal_year_end": "06-30",
+    "source": "SEC EDGAR XBRL companyconcept API (data.sec.gov)",
+    "retrieved": "2026-08-30",
+    "note": "Values are as reported in 10-K filings, USD. FY labels are the company's fiscal years (ending June 30). FY2024 10-K accession 0001375365-25-000004 filed 2025-02-25 (delayed filing); FY2025 10-K accession 0001375365-25-000027 filed 2025-08-28.",
+    "accessions": {
+      "FY2024_10K": {
+        "accession": "0001375365-25-000004",
+        "filed": "2025-02-25"
+      },
+      "FY2025_10K": {
+        "accession": "0001375365-25-000027",
+        "filed": "2025-08-28"
+      }
+    },
+    "resolved": {
+      "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "gross_profit": "us-gaap:GrossProfit",
+      "operating_income": "us-gaap:OperatingIncomeLoss",
+      "net_income": "us-gaap:NetIncomeLoss",
+      "inventory": "us-gaap:InventoryNet",
+      "ocf": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+      "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+      "ar": "us-gaap:AccountsReceivableNetCurrent",
+      "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "dna": "us-gaap:DepreciationDepletionAndAmortization",
+      "tax_expense": "us-gaap:IncomeTaxExpenseBenefit",
+      "pretax_income": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+      "ap": "us-gaap:AccountsPayableCurrent"
+    },
+    "fiscal_periods": {
+      "FY2019": "2019-06-30",
+      "FY2020": "2020-06-30",
+      "FY2021": "2021-06-30",
+      "FY2022": "2022-06-30",
+      "FY2023": "2023-06-30",
+      "FY2024": "2024-06-30",
+      "FY2025": "2025-06-30"
+    },
+    "tag_notes": "pretax_income: first candidate tag (\u2026ExtraordinaryItemsNoncontrollingInterest) 404d for SMCI; resolved via \u2026MinorityInterestAndIncomeLossFromEquityMethodInvestments. See FAILURES.md."
+  },
+  "facts": {
+    "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax": {
+      "2019-06-30": 3500360000,
+      "2020-06-30": 3339281000,
+      "2021-06-30": 3557422000,
+      "2022-06-30": 5196099000,
+      "2023-06-30": 7123482000,
+      "2024-06-30": 14989251000,
+      "2025-06-30": 21972042000
+    },
+    "us-gaap:GrossProfit": {
+      "2019-06-30": 495522000,
+      "2020-06-30": 526210000,
+      "2021-06-30": 534538000,
+      "2022-06-30": 800001000,
+      "2023-06-30": 1283012000,
+      "2024-06-30": 2061410000,
+      "2025-06-30": 2429922000
+    },
+    "us-gaap:OperatingIncomeLoss": {
+      "2019-06-30": 97233000,
+      "2020-06-30": 85654000,
+      "2021-06-30": 123947000,
+      "2022-06-30": 335167000,
+      "2023-06-30": 761142000,
+      "2024-06-30": 1210774000,
+      "2025-06-30": 1252994000
+    },
+    "us-gaap:NetIncomeLoss": {
+      "2019-06-30": 71918000,
+      "2020-06-30": 84308000,
+      "2021-06-30": 111865000,
+      "2022-06-30": 285163000,
+      "2023-06-30": 639998000,
+      "2024-06-30": 1152666000,
+      "2025-06-30": 1048854000
+    },
+    "us-gaap:InventoryNet": {
+      "2019-06-30": 670188000,
+      "2020-06-30": 851498000,
+      "2021-06-30": 1040964000,
+      "2022-06-30": 1545606000,
+      "2023-06-30": 1445564000,
+      "2024-06-30": 4333029000,
+      "2025-06-30": 4680375000
+    },
+    "us-gaap:NetCashProvidedByUsedInOperatingActivities": {
+      "2019-06-30": 262554000,
+      "2020-06-30": -30334000,
+      "2021-06-30": 122955000,
+      "2022-06-30": -440801000,
+      "2023-06-30": 663580000,
+      "2024-06-30": -2485972000,
+      "2025-06-30": 1659524000
+    },
+    "us-gaap:CashAndCashEquivalentsAtCarryingValue": {
+      "2019-06-30": 248164000,
+      "2020-06-30": 210533000,
+      "2021-06-30": 232266000,
+      "2022-06-30": 267397000,
+      "2023-06-30": 440459000,
+      "2024-06-30": 1669766000,
+      "2025-06-30": 5169911000
+    },
+    "us-gaap:ResearchAndDevelopmentExpense": {
+      "2019-06-30": 179907000,
+      "2020-06-30": 221478000,
+      "2021-06-30": 224369000,
+      "2022-06-30": 272273000,
+      "2023-06-30": 307260000,
+      "2024-06-30": 463548000,
+      "2025-06-30": 636550000
+    },
+    "us-gaap:AccountsReceivableNetCurrent": {
+      "2019-06-30": 393624000,
+      "2020-06-30": 403745000,
+      "2021-06-30": 463834000,
+      "2022-06-30": 834513000,
+      "2023-06-30": 1148259000,
+      "2024-06-30": 2737331000,
+      "2025-06-30": 2203942000
+    },
+    "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment": {
+      "2019-06-30": 24849000,
+      "2020-06-30": 44338000,
+      "2021-06-30": 58016000,
+      "2022-06-30": 45182000,
+      "2023-06-30": 36793000,
+      "2024-06-30": 124279000,
+      "2025-06-30": 127214000
+    },
+    "us-gaap:DepreciationDepletionAndAmortization": {
+      "2019-06-30": 24202000,
+      "2020-06-30": 28472000,
+      "2021-06-30": 28185000,
+      "2022-06-30": 24800000,
+      "2023-06-30": 26900000,
+      "2024-06-30": 30100000,
+      "2025-06-30": 41000000
+    },
+    "us-gaap:IncomeTaxExpenseBenefit": {
+      "2019-06-30": 14884000,
+      "2020-06-30": 2922000,
+      "2021-06-30": 6936000,
+      "2022-06-30": 52876000,
+      "2023-06-30": 110666000,
+      "2024-06-30": 63294000,
+      "2025-06-30": 156851000
+    },
+    "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments": {
+      "2019-06-30": 89523000,
+      "2020-06-30": 84828000,
+      "2021-06-30": 118628000,
+      "2022-06-30": 336833000,
+      "2023-06-30": 754297000,
+      "2024-06-30": 1214139000,
+      "2025-06-30": 1211916000
+    },
+    "us-gaap:AccountsPayableCurrent": {
+      "2019-06-30": 360470000,
+      "2020-06-30": 417673000,
+      "2021-06-30": 612336000,
+      "2022-06-30": 655403000,
+      "2023-06-30": 776831000,
+      "2024-06-30": 1472381000,
+      "2025-06-30": 1281977000
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "company": "Super Micro Computer, Inc. (SMCI)",
+  "as_of": "2026-08-30",
+  "mode": "grounded -- generated from the EDGAR cache; every figure carries a source ref",
+  "claims": [
+    {
+      "id": "a01",
+      "text": "SMCI generated $21.97B of revenue in FY2025 (period ended 2025-06-30).",
+      "kind": "fact",
+      "figure": {
+        "value": 21972042000,
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "period_end": "2025-06-30",
+        "unit": "USD"
+      }
+    },
+    {
+      "id": "a02",
+      "text": "Revenue grew +46.6% year-over-year.",
+      "kind": "derived",
+      "derivation": {
+        "op": "yoy_growth",
+        "numerator": {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_end": "2025-06-30"
+        },
+        "denominator": {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_end": "2024-06-30"
+        },
+        "stated_value": 0.4659,
+        "unit": "pct"
+      }
+    },
+    {
+      "id": "a03",
+      "text": "Gross margin was 11.1% in FY2025.",
+      "kind": "derived",
+      "derivation": {
+        "op": "margin",
+        "numerator": {
+          "concept": "us-gaap:GrossProfit",
+          "period_end": "2025-06-30"
+        },
+        "denominator": {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_end": "2025-06-30"
+        },
+        "stated_value": 0.1106,
+        "unit": "pct"
+      }
+    },
+    {
+      "id": "a04",
+      "text": "...versus 13.8% in FY2024 (-269bps).",
+      "kind": "derived",
+      "derivation": {
+        "op": "margin",
+        "numerator": {
+          "concept": "us-gaap:GrossProfit",
+          "period_end": "2024-06-30"
+        },
+        "denominator": {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_end": "2024-06-30"
+        },
+        "stated_value": 0.1375,
+        "unit": "pct"
+      }
+    },
+    {
+      "id": "a05",
+      "text": "Operating margin was 5.7% in FY2025.",
+      "kind": "derived",
+      "derivation": {
+        "op": "margin",
+        "numerator": {
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "period_end": "2025-06-30"
+        },
+        "denominator": {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_end": "2025-06-30"
+        },
+        "stated_value": 0.057,
+        "unit": "pct"
+      }
+    },
+    {
+      "id": "a06",
+      "text": "Net income was $1.05B in FY2025.",
+      "kind": "fact",
+      "figure": {
+        "value": 1048854000,
+        "concept": "us-gaap:NetIncomeLoss",
+        "period_end": "2025-06-30",
+        "unit": "USD"
+      }
+    },
+    {
+      "id": "a07",
+      "text": "Net income changed -9.0% year-over-year.",
+      "kind": "derived",
+      "derivation": {
+        "op": "yoy_growth",
+        "numerator": {
+          "concept": "us-gaap:NetIncomeLoss",
+          "period_end": "2025-06-30"
+        },
+        "denominator": {
+          "concept": "us-gaap:NetIncomeLoss",
+          "period_end": "2024-06-30"
+        },
+        "stated_value": -0.0901,
+        "unit": "pct"
+      }
+    },
+    {
+      "id": "a08",
+      "text": "Operating cash flow was $1.66B in FY2025.",
+      "kind": "fact",
+      "figure": {
+        "value": 1659524000,
+        "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "period_end": "2025-06-30",
+        "unit": "USD"
+      }
+    },
+    {
+      "id": "a09",
+      "text": "...versus $-2.49B in FY2024.",
+      "kind": "fact",
+      "figure": {
+        "value": -2485972000,
+        "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "period_end": "2024-06-30",
+        "unit": "USD"
+      }
+    },
+    {
+      "id": "a10",
+      "text": "Cash and equivalents ended FY2025 at $5.17B.",
+      "kind": "fact",
+      "figure": {
+        "value": 5169911000,
+        "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "period_end": "2025-06-30",
+        "unit": "USD"
+      }
+    },
+    {
+      "id": "a11",
+      "text": "Inventory ended FY2025 at $4.68B.",
+      "kind": "fact",
+      "figure": {
+        "value": 4680375000,
+        "concept": "us-gaap:InventoryNet",
+        "period_end": "2025-06-30",
+        "unit": "USD"
+      }
+    },
+    {
+      "id": "a12",
+      "text": "R&D intensity was 2.9% of revenue in FY2025.",
+      "kind": "derived",
+      "derivation": {
+        "op": "ratio",
+        "numerator": {
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "period_end": "2025-06-30"
+        },
+        "denominator": {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_end": "2025-06-30"
+        },
+        "stated_value": 0.029,
+        "unit": "pct"
+      }
+    },
+    {
+      "id": "a13",
+      "text": "Free cash flow (OCF less capex) was $1.53B in FY2025.",
+      "kind": "derived",
+      "derivation": {
+        "op": "delta",
+        "numerator": {
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "period_end": "2025-06-30"
+        },
+        "denominator": {
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "period_end": "2025-06-30"
+        },
+        "stated_value": 1532310000,
+        "unit": "USD"
+      }
+    }
+  ]
+}
